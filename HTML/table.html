@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+    border-collapse: collapse;
+}
+caption {
+    background-color: aquamarine;
+    color: azure;
+}
+thead th {
+    padding: 10px;
+    color: #e31010;
+    background-color: yellow;
+}
+tbody td {
+    background-color: #2a14df;
+    color: #00ff09;
+}
+tr#ThirdRow td {
+    color: red;
+}
+tr.fourFive td {
+    color: gold;
+}
+    </style>
+</head>
+<body>
+    <table border="1"> 
+        <caption>Student Results</caption>
+        <thead>
+            <tr>
+                <th>SLNo.</th>
+                <th colspan="2">Name</th>
+                <th>Social</th>
+                <th>Science</th>
+                <th>Maths</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Leela</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Prakash</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+            <tr id="ThirdRow">
+                <td>3</td>
+                <td>Leela</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+            <tr class="fourFive">
+                <td>4</td>
+                <td>Prakash</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+            <tr class="fourFive">
+                <td>5</td>
+                <td>Leela</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Prakash</td>
+                <td>56</td>
+                <td>67</td>
+                <td>76</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
